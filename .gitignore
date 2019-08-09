@@ -1,0 +1,6 @@
+obj
+bin
+.vs
+wwwroot
+start-api.bat
+DatingApp.db
