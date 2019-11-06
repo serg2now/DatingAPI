@@ -11,6 +11,7 @@ namespace DatingApp.API.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
+            Database.Migrate();
         }
 
         public DbSet<Value> Values { get; set; }

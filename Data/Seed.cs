@@ -28,10 +28,10 @@ namespace DatingApp.API.Data
 
                 var roles = new List<Role>
                 {
-                    new Role{Name = "Member"},
-                    new Role{Name = "Admin"},
-                    new Role{Name = "Moderator"},
-                    new Role{Name = "VIP"}
+                    new Role{Id = 1, Name = "Member"},
+                    new Role{Id = 2, Name = "Admin"},
+                    new Role{Id = 3, Name = "Moderator"},
+                    new Role{Id = 4, Name = "VIP"}
                 };
 
                 foreach (var role in roles)
@@ -48,6 +48,7 @@ namespace DatingApp.API.Data
 
                 var adminUser = new User
                 {
+                    Id = 11,
                     UserName = "Admin"
                 };
 

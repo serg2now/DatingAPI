@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+    <!--<TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>-->
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <None Remove="DatingApp-SPA\src\app\routes.ts" />
     <None Remove="DatingApp-SPA\src\app\_directives\hasRole.directive.ts" />
     <None Remove="DatingApp-SPA\src\app\_guards\prevent-unsaved-changes.guard.ts" />
@@ -19,7 +19,7 @@
     <None Remove="DatingApp-SPA\src\app\_resolvers\member-list.resolver.ts" />
     <None Remove="DatingApp-SPA\src\app\_resolvers\messages.resolver.ts" />
     <None Remove="DatingApp-SPA\src\app\_services\error.interceptor.ts" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
@@ -33,7 +33,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <TypeScriptCompile Include="DatingApp-SPA\src\app\routes.ts" />
     <TypeScriptCompile Include="DatingApp-SPA\src\app\_directives\hasRole.directive.ts" />
     <TypeScriptCompile Include="DatingApp-SPA\src\app\_guards\prevent-unsaved-changes.guard.ts" />
@@ -47,6 +47,6 @@
     <TypeScriptCompile Include="DatingApp-SPA\src\app\_resolvers\member-list.resolver.ts" />
     <TypeScriptCompile Include="DatingApp-SPA\src\app\_resolvers\member-detail.resolver.ts" />
     <TypeScriptCompile Include="DatingApp-SPA\src\app\_services\error.interceptor.ts" />
-  </ItemGroup>
+  </ItemGroup>-->
 
 </Project>

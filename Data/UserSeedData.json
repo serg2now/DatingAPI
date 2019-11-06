@@ -1,5 +1,6 @@
 [
   {
+    "Id": "1", 
     "Username": "Freda",
     "Gender": "female",
     "DateOfBirth": "1980-03-12",
@@ -14,13 +15,16 @@
     "Country": "Finland",
     "Photos": [
       {
+        "Id": "1",
         "url": "https://randomuser.me/api/portraits/women/47.jpg",
         "isMain": true,
+        "UserId" :  "1",
         "description": "Ut dolore minim ipsum minim exercitation anim aliqua esse."
       }
     ]
   },
   {
+    "Id": "2",
     "Username": "Aida",
     "Gender": "female",
     "DateOfBirth": "1989-10-18",
@@ -35,13 +39,16 @@
     "Country": "Latvia",
     "Photos": [
       {
+        "Id": "2",
         "url": "https://randomuser.me/api/portraits/women/33.jpg",
         "isMain": true,
+        "UserId": "2",
         "description": "Culpa sint consectetur in deserunt occaecat nostrud in commodo ad deserunt in minim."
       }
     ]
   },
   {
+    "Id": "3",
     "Username": "Susie",
     "Gender": "female",
     "DateOfBirth": "1972-05-21",
@@ -56,13 +63,16 @@
     "Country": "Greenland",
     "Photos": [
       {
+        "Id": "3",
         "url": "https://randomuser.me/api/portraits/women/65.jpg",
         "isMain": true,
+        "UserId": "3",
         "description": "Esse aliquip enim nisi culpa sunt."
       }
     ]
   },
   {
+    "Id": "4",
     "Username": "Nichole",
     "Gender": "female",
     "DateOfBirth": "1968-03-10",
@@ -77,13 +87,16 @@
     "Country": "Jamaica",
     "Photos": [
       {
+        "Id": "4",
         "url": "https://randomuser.me/api/portraits/women/38.jpg",
         "isMain": true,
+        "UserId": "4",
         "description": "Adipisicing consequat consequat sit aute officia commodo officia esse dolore dolore anim consequat nisi excepteur."
       }
     ]
   },
   {
+    "Id": "5",
     "Username": "Bridget",
     "Gender": "female",
     "DateOfBirth": "1965-07-31",
@@ -98,13 +111,16 @@
     "Country": "Turks and Caicos Islands",
     "Photos": [
       {
+        "Id": "5",
         "url": "https://randomuser.me/api/portraits/women/6.jpg",
         "isMain": true,
+        "UserId": "5",
         "description": "Proident reprehenderit est enim proident ad exercitation irure eu laboris exercitation aute voluptate dolore adipisicing."
       }
     ]
   },
   {
+    "Id": "6",
     "Username": "Fisher",
     "Gender": "male",
     "DateOfBirth": "1990-04-02",
@@ -119,13 +135,16 @@
     "Country": "Dominican Republic",
     "Photos": [
       {
+        "Id": "6",
         "url": "https://randomuser.me/api/portraits/men/44.jpg",
         "isMain": true,
+        "UserId": "6",
         "description": "Culpa commodo proident do dolor cillum pariatur eiusmod cillum reprehenderit do Lorem nulla do."
       }
     ]
   },
   {
+    "Id": "7",
     "Username": "Simon",
     "Gender": "male",
     "DateOfBirth": "1964-08-27",
@@ -140,13 +159,16 @@
     "Country": "Guadeloupe",
     "Photos": [
       {
+        "Id": "7",
         "url": "https://randomuser.me/api/portraits/men/72.jpg",
         "isMain": true,
+        "UserId": "7",
         "description": "Magna ea dolore eu incididunt eu commodo culpa sunt magna in magna est."
       }
     ]
   },
   {
+    "Id": "8",
     "Username": "Rivers",
     "Gender": "male",
     "DateOfBirth": "1952-12-16",
@@ -161,13 +183,16 @@
     "Country": "Taiwan",
     "Photos": [
       {
+        "Id": "8",
         "url": "https://randomuser.me/api/portraits/men/23.jpg",
         "isMain": true,
+        "UserId": "8",
         "description": "Duis esse irure nulla ullamco est id consequat Lorem."
       }
     ]
   },
   {
+    "Id": "9",
     "Username": "Boyer",
     "Gender": "male",
     "DateOfBirth": "1974-12-02",
@@ -182,13 +207,16 @@
     "Country": "Georgia",
     "Photos": [
       {
+        "Id": "9",
         "url": "https://randomuser.me/api/portraits/men/36.jpg",
         "isMain": true,
+        "UserId": "9",
         "description": "Sint aliqua ut culpa ipsum deserunt elit anim voluptate fugiat."
       }
     ]
   },
   {
+    "Id": "10",
     "Username": "Johnson",
     "Gender": "male",
     "DateOfBirth": "1957-07-17",
@@ -203,8 +231,10 @@
     "Country": "Botswana",
     "Photos": [
       {
+        "Id": "10",
         "url": "https://randomuser.me/api/portraits/men/52.jpg",
         "isMain": true,
+        "UserId": "10",
         "description": "Laboris magna mollit consequat deserunt consectetur culpa commodo anim est ea sunt."
       }
     ]

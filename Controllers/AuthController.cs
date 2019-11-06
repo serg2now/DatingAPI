@@ -3,6 +3,7 @@ using DatingApp.API.Data;
 using DatingApp.API.Dtos;
 using DatingApp.API.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -71,6 +72,13 @@ namespace DatingApp.API.Controllers
                     .FirstOrDefaultAsync(u => u.NormalizedUserName == userForLoginDto.Username.ToUpper());
 
                 var userToReturn = _mapper.Map<UserForListDto>(appUser);
+                var token = GenerateJwtToken(appUser).Result;
+
+
+                HttpContext.Response.Cookies.Append(
+                ".DatingAppSPA.Id",
+                token,
+                new CookieOptions { MaxAge = TimeSpan.FromMinutes(60) });
 
                 return Ok(new
                 {
@@ -106,6 +114,8 @@ namespace DatingApp.API.Controllers
             {
                 Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.Now.AddDays(1),
+                NotBefore = DateTime.Now,
+                IssuedAt = DateTime.Now,
                 SigningCredentials = creds
             };
 
